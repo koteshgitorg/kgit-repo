@@ -1,0 +1,2254 @@
+{
+    "name": "PABank_FR_GTU",
+    "envVariables": [
+        {
+            "key": "callCenterStatus",
+            "value": "open",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "channel",
+            "value": "web",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "userLoginStatus",
+            "value": "loggedIn",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "agency_atm_locator_url",
+            "value": "https://www.belfius.be/retail/fr/contact/agence/trouver-agence/batopin.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "contact_url",
+            "value": "https://www.belfius.be/retail/fr/contact/index.aspx?",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "my_appointments_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/mes-rendez-vous/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "manage_account_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/comptes/gerer-les-caracteristiques/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "itsme_support_url",
+            "value": "https://www.belfius.be/retail/fr/support-itsme",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "retail_url",
+            "value": "https://www.belfius.be/retail/fr/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "make_appointment_url",
+            "value": "https://www.belfius.be/retail/fr/contact/prendre-rendez-vous/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "manage_card_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/cartes/gestion-des-cartes/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "manage_card_limits_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/cartes/gestion-des-cartes/gestion-des-limites/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "mobile_sevices_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/services-mobiles/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "account_history_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/comptes/consulter-lhistorique/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "transactions_to_sign_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/a-signer/index.aspx?",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "mycard_purchase_dispute_url",
+            "value": "https://macarte.be/fr-be/home/how-can-we-help/forms/purchase-dispute.html",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "cancel_direct_debit_letter_url",
+            "value": "https://www.belfius.be/common/FR/multimedia/MMDownloadableFile/Selfcare/PDF-Domiciliation-NL.pdf",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "manage_direct_debits_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/operations/domiciliations-europeennes/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "manage_standing_orders_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/operations/ordres-permanents/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "travel_insurance_general_url",
+            "value": "https://www.belfius.be/retail/fr/produits/assurance/voyage/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "manage_card_statement_reception_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/cartes/determiner-preference-reception-releves-de-depenses/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "manage_account_statement_reception_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/comptes/determiner-preference-reception-extraits/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "replace_mastercard_visa_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/cartes/remplacer-une-mastercardvisa/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "request_mastercard_prepaid_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/cartes/demander-une-mastercard-prepaid/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "credit_prepaid_cards_url",
+            "value": "https://www.belfius.be/retail/fr/produits/paiement/carte-de-credit-et-prepayee/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "request_custom_card_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/cartes/demander-une-carte-perso/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "follow_up_transactions_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/operations/suivre-des-transactions/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "personal_data_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/communication-avec-la-banque/donnees-personnelles/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "cardreader_installation_url",
+            "value": "https://www.belfius.be/common/fr/multimedia/MMDownloadableFile/Card_Reader/installation_GC.pdf",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "agency_contact_form_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/communication-avec-la-banque/ContactFormBranch/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "account_overview_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/comptes/apercu/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "account_statements_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/comptes/mes-extraits-de-compte/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "mastercard_visa_history_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/cartes/historique-mastercardvisa/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "edocuments_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/edocuments/archives/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "price_list_url",
+            "value": "https://www.belfius.be/imagingservlet/GetDocument?src=mifid&id=TARIFEUR_FR",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "classic_account_price_overview_url",
+            "value": "https://www.belfius.be/imagingservlet/GetDocument?src=mifid&id=FIDClassic_FR",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "loans_overview_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/credits/apercu/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "insurances_overview_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/assurances/apercu/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "request_mastercard_visa_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/cartes/demander-une-carte-mastercardvisa/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "beats_account_info_url",
+            "value": "https://www.belfius.be/retail/fr/produits/paiement/beats/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "beats_star_account_info_url",
+            "value": "https://www.belfius.be/retail/fr/produits/paiement/compte-bancaire/beats-star/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "beats_new_account_info_url",
+            "value": "https://www.belfius.be/retail/fr/produits/paiement/compte-bancaire/beats-new/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "beats_pulse_account_info_url",
+            "value": "https://www.belfius.be/retail/fr/produits/paiement/compte-bancaire/beats-pulse/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "savings_accounts_overview_url",
+            "value": "https://www.belfius.be/retail/fr/produits/epargner-investir/epargne/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "classic_account_info_url",
+            "value": "https://www.belfius.be/retail/fr/produits/paiement/compte-bancaire/classic/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "checking_accounts_overview_url",
+            "value": "https://www.belfius.be/retail/fr/produits/paiement/compte-bancaire/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "bancontact_debit_card_overview_url",
+            "value": "https://www.belfius.be/retail/fr/produits/paiement/moyens-de-paiement/cartes-bancaires-avec-maestro-bancontact/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "savings_account_info_url",
+            "value": "https://www.belfius.be/retail/fr/produits/epargner-investir/epargne/compte-epargne/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "credit_prepaid_card_types_url",
+            "value": "https://www.belfius.be/retail/fr/produits/paiement/carte-de-credit-et-prepayee/types/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "faq_difference_direct_debit_permanent_order_url",
+            "value": "https://www.belfius.be/webapps/fr/selfcare/belfius/operations/ordrespermanents/verschil-doorlopende-opdracht-domicliering",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "faq_transfer_abroad_url",
+            "value": "https://www.belfius.be/webapps/fr/selfcare/belfius/operations/virements/Comment-puis-je-%C2%A0transf%C3%A9rer-de-largent-%C3%A0-l%C3%A9tranger-(en-euro-ou-en-devise-%C3%A9trang%C3%A8re)-",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "faq_transfer_pending_url",
+            "value": "https://www.belfius.be/webapps/fr/selfcare/belfius/operations/virements/pourquoi-virement-ordre-permanent-domiciliation-en-attente-comment-resoudre-cela",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "faq_instant_transfer_url",
+            "value": "https://www.belfius.be/webapps/fr/selfcare/belfius/operations/virements/Que-signifie-Instant-Payment-ou-SEPA-Instant-Credit-Transfer-",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "faq_urgent_transfer_url",
+            "value": "https://www.belfius.be/webapps/fr/selfcare/belfius/belfiusdirectnet/utiliser/Comment-puis-je-effectuer-un-virement-urgent-",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "my_messages_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/mes-messages/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "unauthorized_debet_transactions_url",
+            "value": "https://www.belfius.be/retail/fr/produits/paiement/moyens-de-paiement/moyens-de-paiement/virements/operations-de-debit-non-autorisees/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "faq_limit_balance_url",
+            "value": "https://www.belfius.be/webapps/fr/selfcare/belfius/cartescredit/limites/Quelle-est-la-limite-ou-le-solde-de-ma-carte-de-cr%C3%A9dit-actuellement",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "apple_app_store_url",
+            "value": "https://www.belfius.be/retail/fr/ext-AppStoreFR",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "google_play_store_url",
+            "value": "https://www.belfius.be/retail/fr/ext-PlayStore",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "setup_bank_transfer_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/nouveau-virement/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "participating_banks_instant_transfer_url",
+            "value": "https://www.ebaclearing.eu/services/rt1/participants",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "faq_card_purchase_debit_from_account_url",
+            "value": "https://www.belfius.be/webapps/fr/selfcare/belfius/cartescredit/releves/Quand-mon-achat-avec-carte-sera-t-il-d%C3%A9bit%C3%A9-de-mon-compte-",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "faq_why_account_blocked_url",
+            "value": "https://www.belfius.be/webapps/fr/selfcare/belfius/comptes/gerer/Pourquoi-mon-compte-%C3%A0-vue-est-il-bloqu%C3%A9-",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "faq_unblock_belfius_app_url",
+            "value": "https://www.belfius.be/webapps/fr/selfcare/belfius/apps/demarrer/Comment-puis-je-d%C3%A9bloquer-mon-abonnement-Belfius-MobileTablet-",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "cardstop_online_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/cartes/cardstop-online/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "itsme_block_url",
+            "value": "https://www.belfius.be/retail/fr/ext-itsme-id.com/account/block",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "home_insurance_simulation_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/assurances/demander-une-assurance/simulations-assurance-habitation/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "order_cash_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/operations/commander-de-largent/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "investment_account_overview_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/investissements/apercu-par-compte/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "belfius_direct_car_km_insurance_url",
+            "value": "https://www.belfiusdirect.be/fr/mobilite/auto/",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "belfius_direct_client_zone_url",
+            "value": "https://www.belfiusdirect.be/fr/espace-client/",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "belfius_direct_url",
+            "value": "https://www.belfiusdirect.be/fr/",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "report_fraud_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/securite/signaler-une-fraude/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "set_face_touch_logon_appkey",
+            "value": "appkey=SET_TOUCHLOGON",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "security_settings_appkey",
+            "value": "appkey=SETTINGS_CATEGORY_SECURITY",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "make_appointment_appkey",
+            "value": "appkey=APPOINTMENT",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "manage_card_appkey",
+            "value": "appkey=CARD_PROFILER",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "manage_account_appkey",
+            "value": "appkey=SET_ACC",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "device_list_appkey",
+            "value": "appkey=SETTINGS_DEVICES_LIST",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "agency_atm_locator_appkey",
+            "value": "appkey=ATMLOCATOR",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "agencies_appkey",
+            "value": "appkey=AGENCIES",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "my_appointments_appkey",
+            "value": "appkey = APPOINTMENTS_LIST",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "accounts_cards_appkey",
+            "value": "appkey=ACC",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "contact_appkey",
+            "value": "appkey=CONTACT",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "creditcard_appkey",
+            "value": "appkey=CREDITCARD",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "request_prepaid_card_appkey",
+            "value": "appkey=PREPAIDCARDDEMAND",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "transactions_to_sign_appkey",
+            "value": "appkey=CADDYSIGN",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "personal_data_appkey",
+            "value": "appkey=CONSULT_USER_DATA",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "update_eid_appkey",
+            "value": "appkey=EID",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "agency_contact_form_appkey",
+            "value": "appkey=CONTACT_FORM_AGENCY",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "documents_appkey",
+            "value": "appkey=DOCUMENTS",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "cardlist_appkey",
+            "value": "appkey=CARDSLIST",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "account_statements_appkey",
+            "value": "appkey=STATEMENTS_ACCOUNT",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "request_credit_card_appkey",
+            "value": "appkey=CREDITCARDDEMAND",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "change_pin_appkey",
+            "value": "appkey=SETTINGS_PIN_MODIFY",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "notification_settings_appkey",
+            "value": "appkey=NOTIFICATIONS_SETTINGS",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "messages_appkey",
+            "value": "appkey=MESSAGES",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "transfer_appkey",
+            "value": "appkey=TRANSFER",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "create_standing_order_appkey",
+            "value": "appkey=CREATE_STANDING_ORDER",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "cardstop_appkey",
+            "value": "appkey=CARDSTOP",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "insurance_simulation_appkey",
+            "value": "appkey=INSURANCE_SIMULATION",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "personal_data_address_appkey",
+            "value": "appkey=CONSULT_USER_DATA_ADDRESS",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "change_pin_without_landing_page_appkey",
+            "value": "appkey=TECHNICAL_CHANGE_PINWITHOUT_LANDING_PAGE",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "order_foreign_currencies_appkey",
+            "value": "appkey=ORDER_FOREIGN_CURRENCIES",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "set_card_limits_appkey",
+            "value": "appkey=SECURITY_SETTINGS_CARDLIMITS",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "products_appkey",
+            "value": "appkey=PRODUCTS",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "fraud_appkey",
+            "value": "appkey=FRAUD",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "my_belfius",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "request_belfius_assistance_insurance_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/assurances/demander-une-assurance/belfius-assistance/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "request_family_insurance_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/assurances/demander-une-assurance/simulations-assurance-famille/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "kilometer_insurance_simulation_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/assurances/demander-une-assurance/simulations/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "family_insurance_url",
+            "value": "https://www.belfius.be/retail/fr/produits/assurance/famille/assurance-familiale/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "home_insurance_url",
+            "value": "https://www.belfius.be/retail/fr/produits/assurance/habitation/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "travel_insurance_url",
+            "value": "https://www.belfius.be/retail/fr/produits/assurance/voyage/assistance-voyage/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "car_insurance_price_url",
+            "value": "https://www.belfiusdirect.be/fr/assurance-auto/calculez-votre-prix",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "request_insurance_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/assurances/demander-une-assurance/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "home_loan_simulation_url",
+            "value": "https://www.belfius.be/retail/fr/produits/emprunter/habitation/simulateur-credit-logement/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "home_loan_simulation_logged_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/credits/simulateur-credit-logement/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "loan_simulation_logged_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/credits/simuler-un-credit/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "renovation_loan_simulation_url",
+            "value": "https://www.belfius.be/retail/fr/produits/emprunter/habitation/pret-renovation/simulateur-credit/index.aspx?appkey=CREDIT_SIMULATION&bt_CodeClientNeedsIn=HUIR&bt_BypassOverview=Y",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "car_loan_simulation_url",
+            "value": "https://www.belfius.be/retail/fr/produits/emprunter/vehicule/pret-voiture/simulateur-credit/index.aspx?bt_CodeClientNeedsIn=AUTO&bt_BypassOverview=Y",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "motorbike_loan_simulation_url",
+            "value": "https://www.belfius.be/retail/fr/produits/emprunter/vehicule/pret-moto/simulateur-credit/index.aspx?bt_CodeClientNeedsIn=MOTO&bt_BypassOverview=Y",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "green_renovation_loan_simulation_url",
+            "value": "https://www.belfius.be/retail/fr/produits/emprunter/habitation/pret-renovation-eco/simulateur-credit/index.aspx?&bt_CodeClientNeedsIn=HUIE&bt_BypassOverview=Y",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "bike_loan_simulation_url",
+            "value": "https://www.belfius.be/retail/fr/produits/emprunter/vehicule/pret-velo/simulateur-credit/index.aspx?bt_CodeClientNeedsIn=MOBI&bt_BypassOverview=Y",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "purchase_loan_simulation_url",
+            "value": "https://www.belfius.be/retail/fr/produits/emprunter/autres-depenses/pret-achat/simulateur-credit/index.aspx?bt_CodeLevel3=010411&bt_BypassOverview=Y",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "overview_other_loans_url",
+            "value": "https://www.belfius.be/retail/fr/produits/emprunter/autres-depenses/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "personal_loan_simulation_url",
+            "value": "https://www.belfius.be/retail/fr/produits/emprunter/autres-depenses/pret-personnel/simulateur-credit/index.aspx?bt_CodeLevel3=010611&bt_BypassOverview=Y",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "request_budget_credit_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/credits/simuler-un-credit/demander-un-credit-budget-comfort/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "overview_insurance_url",
+            "value": "https://www.belfius.be/retail/fr/produits/assurance/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "budgetline_loan_simulation_url",
+            "value": "https://www.belfius.be/retail/fr/produits/emprunter/autres-depenses/reserve-argent-budgetline/simulateur-credit/index.aspx?bt_CodeLevel3=020101&bt_BypassOverview=Y",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "overview_rebel_url",
+            "value": "https://www.belfius.be/retail/fr/produits/epargner-investir/rebel/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "portfolio_rebel_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/votre-portefeuille/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "pension_saving_url",
+            "value": "https://www.belfius.be/retail/fr/produits/epargner-investir/epargne-pension/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "term_account_url",
+            "value": "https://www.belfius.be/retail/fr/produits/epargner-investir/investir/compte-terme-euro/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "family_insurance_appkey",
+            "value": "appkey=INSURANCE_SIMUL_FAMILY",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "travel_insurance_appkey",
+            "value": "appkey=TRAVEL",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "home_loan_simulation_appkey",
+            "value": "appkey=CREDIT_SIMULATION_HOUSE",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "car_loan_simulation_appkey",
+            "value": "appkey=CREDIT_SIMULATION_CAR",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "mortgage_simulation_appkey",
+            "value": "appkey=MORTGAGE_SIM",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "motorbike_loan_simulation_appkey",
+            "value": "appkey=CREDIT_SIMULATION_MOTO",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "other_vehicle_loan_simulation_appkey",
+            "value": "appkey=CREDIT_SIMULATION_MOBI",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "other_loan_simulation_appkey",
+            "value": "appkey=CREDIT_SIMULATION_OTHER",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "budget_credit_request_appkey",
+            "value": "appkey=BUDGETCREDITREQUEST",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "security_settings_abroad_appkey",
+            "value": "appkey=SECURITY_SETTINGS_ABROAD",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "portfolio_rebel_appkey",
+            "value": "appkey=BROKERAGE_ENTRY",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "safety_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/securite/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "faq_banx_url",
+            "value": "https://www.belfius.be/webapps/fr/selfcare/banx/",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "make_appointment_logged_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/mes-rendez-vous/prendre-rendez-vous/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "general_simulation_appkey",
+            "value": "appkey=CREDIT_SIMULATION",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "smartwatch_pay_url",
+            "value": "https://www.belfius.be/retail/fr/banque-par-vous-meme/services-mobiles/smartwatch-pay/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "smartwatch_applepay_url",
+            "value": "https://www.belfius.be/retail/fr/banque-par-vous-meme/services-mobiles/smartwatch-pay/apple-pay/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "mycard_transfer_positive_balance_url",
+            "value": "https://macarte.be/fr-be/home/how-can-we-help/forms/positive-balance",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "applepay_entry_appkey",
+            "value": "appkey=APPLEPAY_ENTRY",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "safeOnWeb_mail_url",
+            "value": "https://safeonweb.be/fr/apprenez-reconnaitre-les-e-mails-frauduleux",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "safeOnWeb_sms_url",
+            "value": "https://safeonweb.be/fr/actualite/sms-frauduleux-ne-tombez-pas-dans-le-panneau",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "safeOnWeb_call_url",
+            "value": "https://safeonweb.be/fr/search/node?keys=appel",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "faq_unblock_belfius_mobile_url",
+            "value": "https://www.belfius.be/webapps/fr/selfcare/belfius/apps/demarrer/Comment-puis-je-d%C3%A9bloquer-mon-abonnement-Belfius-MobileTablet-",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "FAQ URLs",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "belfius_fraud_tel",
+            "value": "+32 2 222 46 00",
+            "variableType": "env",
+            "hint": "Telephone number of the Belfius fraud service",
+            "scope": "prePopulated",
+            "group": "telephone numbers",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "cardstop_tel",
+            "value": "+32 78 170 170",
+            "variableType": "env",
+            "hint": "Telephone number for Card Stop",
+            "scope": "prePopulated",
+            "group": "telephone numbers",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "instant_wire_banks_list",
+            "value": "https://www.ebaclearing.eu/services/rt1/participants/",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "make_appointment_logged_or_non_logged_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/communication-avec-la-banque/Make-an-appointment/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "debit_mastercard_info_url",
+            "value": "https://www.belfius.be/retail/fr/produits/paiement/moyens-de-paiement/debit-mastercard/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "insurance_claims_overview_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/assurances/sinistres/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "claims_overview_appkey",
+            "value": "appkey=CLAIMSOVERVIEW",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "appkeys",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "assistance_mc_platinum_private_world_elite_tel",
+            "value": "+32 2 222 57 00",
+            "variableType": "env",
+            "hint": "Telephone number for the assistance insurance included with the Mastercard Platinum, Mastercard Private, and Mastercard World Elite",
+            "scope": "prePopulated",
+            "group": "telephone numbers",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "conditions_online_purchase_insurance_mastercard_new_red_pdf_url",
+            "value": "https://www.belfius.be/common/FR/multimedia/MMDownloadableFile/rules-rates-regulations/creditcard/FOXE-4181-AIG-MC-Red-Red-Flex.pdf",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "safe_online_insurance_claim_mastercard_gold_pdf_url",
+            "value": "https://www.belfius.be/retail/fr/Media/AIG%20Belfius%20-%20MasterCard%20Gold%20-FOBE_4399_%20Retail%20CNF%20FR%20-%2020181201_tcm_87-5889.pdf",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "online_purchase_insurance_claim_form_mastercard_platinum_url",
+            "value": "https://www.belfius.be/retail/fr/Media/AIG%20Belfius%20-%20MasterCard%20Platinum%20-FOBE_4397_%20Retail%20CNF%20FR%20-%2020181201_tcm_87-5895.pdf",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "travel_insurance_claim_form_pdf_url",
+            "value": "https://www.belfius.be/retail/fr/Media/FOXE_4401_1%20CNF%20TRAVEL%20CANCELLATION%20FR_tcm_87-223805.pdf",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "open_account_checking_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/comptes/ouvrir-un-compte/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "open_account_saving_appkey",
+            "value": "appkey=ACCOUNT_OPENING",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "open_account_saving_url",
+            "value": "https://www.belfius.be/retail/fr/mon-belfius/comptes/ouvrir-un-compte/index.aspx",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        },
+        {
+            "key": "open_account_checking_appkey",
+            "value": "appkey=ACCOUNT_OPENING",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "68d36504-fa38-54d7-80c3-f45b32fbdf66"
+            ],
+            "isSecured": false
+        }
+    ]
+}
